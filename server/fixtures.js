@@ -14,7 +14,7 @@ var events = [
             lat: 40.416775,
             lon: 3.703790,
         },
-        description: "Clear your calendar. Let's throw a warn welcome party for the latest dev joining our team. A super talented one that can also make jokes. It'll be fun!",
+        description: "Clear your calendar. Let's throw a warm welcome party for the latest dev joining our team. A super talented one that can also make jokes. It'll be fun!",
         sessions: [
             {
                 id: 7,
