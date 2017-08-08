@@ -1,0 +1,15 @@
+{
+  "name": "splash-front-end-challenge",
+  "version": "1.0.0",
+  "author": "Splash <dev@splashthat.com>",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "http-server": "^0.10.0"
+  }
+}
