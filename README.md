@@ -32,7 +32,7 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 ## Implementation Notes
 
 * Use `#root-container` as the container for your JS app.
-* The files `build/index.js` and `build/index.css` are loaded in the layout. You can modify them directly or make your code compilation process output them.
+* The files `build/index.js` and `build/index.css` are loaded in the layout. You can create them directly or make your code compilation process output to those paths.
 * You can choose to use any framework, task runner, CSS preprocessor or technology that you'd like. Product manager Captain Murdock trusts you fully to make the right decision!
 * This project shouldn't take more than a few hours. The goal is for you to implement and design a beautiful solution that can be reviewed and discussed with the rest of the team. Gotta show all of them how amazing you are.
 

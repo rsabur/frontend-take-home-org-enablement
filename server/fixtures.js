@@ -4,6 +4,7 @@ var events = [
         title: 'Welcoming new dev 🍻',
         event_start: new Date('2017/10/01 19:00:00').getTime(),
         event_end: new Date('2017/10/01 22:00:00').getTime(),
+        image_url: 'https://d24wuq6o951i2g.cloudfront.net/img/events/splash/front-end-test-beer.jpg',
         venue: {
             name: 'Splash Madrid',
             address: 'Calle Ponzano 80',
@@ -41,6 +42,7 @@ var events = [
         title: 'Manhattanhenge',
         event_start: new Date('2017/07/13 20:20:00').getTime(),
         event_end: new Date('2017/07/13 20:21:00').getTime(),
+        image_url: 'https://d24wuq6o951i2g.cloudfront.net/img/events/splash/front-end-test-manhattan.jpg',
         venue: {
             name: 'Manhattan',
             address: null,
@@ -59,6 +61,7 @@ var events = [
         title: 'Chiense New Year 🇨🇳',
         event_start: new Date('2017/02/16 00:00:00').getTime(),
         event_end: null,
+        image_url: 'https://d24wuq6o951i2g.cloudfront.net/img/events/splash/front-end-test-china.jpg',
         venue: null,
         description: 'Chinese New Year, also known as the "Spring Festival" in modern China, is an important Chinese festival celebrated at the turn of the traditional lunisolar Chinese calendar.',
         sessions: [],
@@ -68,6 +71,7 @@ var events = [
         title: 'Codemotion Madrid 2017',
         event_start: new Date('2017/11/24 10:00:00').getTime(),
         event_end: new Date('2017/11/25 20:00:00').getTime(),
+        image_url: 'https://d24wuq6o951i2g.cloudfront.net/img/events/splash/front-end-test-codemotion.jpg',
         venue: {
             name: null,
             address: null,
@@ -96,9 +100,10 @@ var events = [
     },
     {
         id: 200,
-        title: 'Codemotion Madrid 2017',
+        title: 'Reactive Conf 2017',
         event_start: new Date('2017/10/25 00:00:00').getTime(),
         event_end: new Date('2017/10/27 00:00:00').getTime(),
+        image_url: 'https://d24wuq6o951i2g.cloudfront.net/img/events/splash/front-end-test-react.png',
         venue: {
             name: null,
             address: null,
@@ -142,6 +147,7 @@ var events = [
         title: 'A talk about coffee',
         event_start: new Date('2017/11/02 10:15:00').getTime(),
         event_end: null,
+        image_url: 'https://d24wuq6o951i2g.cloudfront.net/img/events/splash/front-end-test-coffee.jpg',
         venue: {
             name: 'Splash Madrid',
             address: 'Calle Ponzano 80',

@@ -34,7 +34,7 @@ h1 {
 .user-avatar {
     width: 4rem;
     height: 4rem;
-    background-image: url('//d24wuq6o951i2g.cloudfront.net/img/events/splash/front-end-test-user-avatar-cat.png');
+    background-image: url('https://d24wuq6o951i2g.cloudfront.net/img/events/splash/cat2.png');
     background-position: center center;
     background-size: cover;
     border: 1px solid #ECECEC;
