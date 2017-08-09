@@ -1,10 +1,4 @@
-> @TODO, provide designs.
-
-> @TODO, remove draft status when others review it.
-
-> @TODO, verify submission steps are accurate.
-
-# [draft] Splash Front-end Challenge
+# Splash Front-end Challenge
 
 Hello developer,
 
@@ -14,8 +8,8 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 
 ## Requirements
 
-* Implement a UI that renders the returned events inside the dashboard. Note that the endpoint returns paginated results. See provided designs for reference.
-* Upon clicking on an event, a modal should open that shows more event details. See provided designs for reference.
+* Implement a UI that renders the returned events inside the dashboard. Note that the endpoint returns paginated results.
+* Upon clicking on an event, a modal should open that shows more event details.
 * Bonus: add a [Mapbox.js](https://www.mapbox.com/) map inside the modal showing the event's location.
 
 ## Set-up Instructions
@@ -34,12 +28,13 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 * Use `#root-container` as the container for your JS app.
 * The files `build/index.js` and `build/index.css` are loaded in the layout. You can create them directly or make your code compilation process output to those paths.
 * You can choose to use any framework, task runner, CSS preprocessor or technology that you'd like. Product manager Captain Murdock trusts you fully to make the right decision!
-* This project shouldn't take more than a few hours. The goal is for you to implement and design a beautiful solution that can be reviewed and discussed with the rest of the team. Gotta show all of them how amazing you are.
+* This project shouldn't take more than a few hours. Making sacrifices to stay within the time frame is okay as long as you can explain the decisions. The goal is for you to implement a beautiful solution that can be reviewed and discussed with the team. Gotta show all of them how amazing you are.
+* We won't evaluate you on your design skills, although we encourage you to try to make it beautiful.
 
 ## How to submit?
 
 1. Fork this repo. It will stay private in your account.
-2. When you are done implementing, open a PR to this repo. Easy peasy lemon squeezy!
+2. When you are done implementing, go to Settings > Collaborators & Teams and add as collaborator(s) the Splash developer that gave you the code test. Some of us: @gpuenteallott, @daniellealexis, @MitulP91, @johnnybenson.
 
 We're looking forward to your submission! 🚀
 
