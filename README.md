@@ -29,7 +29,7 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 * The files `build/index.js` and `build/index.css` are loaded in the layout. You can create them directly or make your code compilation process output to those paths.
 * You can choose to use any framework, task runner, CSS preprocessor or technology that you'd like. Product manager Captain Murdock trusts you fully to make the right decision!
 * This project shouldn't take more than a few hours. Making sacrifices to stay within the time frame is okay as long as you can explain the decisions. The goal is for you to implement a beautiful solution that can be reviewed and discussed with the team. Gotta show all of them how amazing you are.
-* We won't evaluate you on your design skills, although we encourage you to try to make it beautiful.
+* Use the [provided designs](designs) for guidance. We'll value that you follow them.
 
 ## How to submit?
 
