@@ -27,9 +27,20 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 
 * Use `#root-container` as the container for your JS app.
 * The files `build/index.js` and `build/index.css` are loaded in the layout. You can create them directly or make your code compilation process output to those paths.
-* You can choose to use any framework, task runner, CSS preprocessor or technology that you'd like. Product manager Captain Murdock trusts you fully to make the right decision!
+* You can choose to use any framework, task runner, CSS preprocessor and libraries that you'd like. Product manager Captain Murdock trusts you fully to make the right decisions!
 * This project shouldn't take more than a few hours. Making sacrifices to stay within the time frame is okay as long as you can explain the decisions. The goal is for you to implement a beautiful solution that can be reviewed and discussed with the team. Gotta show all of them how amazing you are.
-* Use the [provided designs](designs) for guidance. We'll value that you follow them.
+* Use the [provided designs](designs) for guidance.
+
+## Goal
+
+The goal of this challenge is to discuss your implementation with you in your next interview. We'll pay special attention to:
+
+1. Well thought out architecture.
+2. Code readability.
+3. Code that can be easily unit tested.
+4. Alignment with provided designs.
+5. Error handling.
+6. Mobile friendly UI.
 
 ## How to submit?
 
