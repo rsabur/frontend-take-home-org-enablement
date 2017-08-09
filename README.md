@@ -42,3 +42,5 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 2. When you are done implementing, open a PR to this repo. Easy peasy lemon squeezy!
 
 We're looking forward to your submission! 🚀
+
+> Note for reviewers: use `git fetch origin pull/[pullRequestId]/head:[newBranchName]` and `git checkout [newBranchName]` to test locally a submitted pull request.
