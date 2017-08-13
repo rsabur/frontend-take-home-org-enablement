@@ -45,7 +45,7 @@ The goal of this challenge is to discuss your implementation with you in your ne
 ## How to submit?
 
 1. Fork this repo. It will stay private in your account.
-2. When you are done implementing, go to Settings > Collaborators & Teams and add as collaborator(s) the Splash developer that gave you the code test. Some of us: @gpuenteallott, @daniellealexis, @MitulP91, @johnnybenson.
+2. When you are done implementing, go to Settings > Collaborators & Teams and add as a collaborator with admin access the Splash developer that gave you the code test. Some of us: @gpuenteallott, @daniellealexis, @MitulP91, @johnnybenson.
 
 We're looking forward to your submission! 🚀
 
