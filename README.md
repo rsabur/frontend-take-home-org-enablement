@@ -48,5 +48,3 @@ The goal of this challenge is to discuss your implementation with you in your ne
 2. When you are done implementing, go to Settings > Collaborators & Teams and add as a collaborator with admin access the Splash developer that gave you the code test. Some of us: @gpuenteallott, @daniellealexis, @MitulP91, @johnnybenson.
 
 We're looking forward to your submission! 🚀
-
-> Note for reviewers: use `git fetch origin pull/[pullRequestId]/head:[newBranchName]` and `git checkout [newBranchName]` to test locally a submitted pull request.
