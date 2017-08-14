@@ -58,7 +58,7 @@ var events = [
     },
     {
         id: 166,
-        title: 'Chiense New Year 🇨🇳',
+        title: 'Chinese New Year 🇨🇳',
         event_start: new Date('2017/02/16 00:00:00').getTime(),
         event_end: null,
         image_url: 'https://d24wuq6o951i2g.cloudfront.net/img/events/splash/front-end-test-china.jpg',
