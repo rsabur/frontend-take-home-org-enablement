@@ -33,11 +33,11 @@ app.get('/', function(req, res, next) {
  * Returns list of events.
  */
 app.get('/events', function(req, res, next) {
-    var pageSize = 4;
+    var pageSize = 3;
     var currentPage = req.query.page || 1;
 
     var allEvents = Object.assign([], fixtures.events);
-    events = allEvents.slice((currentPage - 1) * pageSize, pageSize);
+    events = allEvents.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
     events = events.map(function(event) {
         var mappedEvent = Object.assign({}, event);
