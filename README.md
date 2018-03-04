@@ -12,8 +12,12 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 * Upon clicking on an event, a modal should open that shows more event details.
 * Bonus: add a [Mapbox.js](https://www.mapbox.com/) map inside the modal showing the event's location.
 
-## Set-up Instructions
+## Getting Started
 
+1. *Fork this repo.* Don't worry! Your fork will remain private in your Github account.
+2. *Add Collaborators.* Go to `Settings > Collaborators & Teams` and the Splash team: @gpuenteallott, @daniellealexis, @MitulP91, @johnnybenson.
+
+## Setup Instructions
 * We recommend using [yarn](https://yarnpkg.com/en/), an improved version of npm for front-end dependency management.
 * Install dependencies executing `yarn install`
 * Kick off the local server executing `yarn run start`
@@ -41,10 +45,5 @@ The goal of this challenge is to discuss your implementation with you in your ne
 4. Alignment with provided designs.
 5. Error handling.
 6. Mobile friendly UI.
-
-## How to submit?
-
-1. Fork this repo. It will stay private in your account.
-2. When you are done implementing, go to Settings > Collaborators & Teams and add as a collaborator with admin access the Splash developer that gave you the code test. Some of us: @gpuenteallott, @daniellealexis, @MitulP91, @johnnybenson.
 
 We're looking forward to your submission! 🚀
