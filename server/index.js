@@ -4,6 +4,7 @@
 
 const http = require('http');
 const express  = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const fixtures = require('./fixtures');
 
@@ -15,6 +16,7 @@ var app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', `${__dirname}`);
+app.use(cors()); // enabling all cors requests.
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
