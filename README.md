@@ -16,6 +16,7 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 
 1. *Fork this repo.* Don't worry! Your fork will remain private in your Github account.
 2. *Add Collaborators.* Go to `Settings > Collaborators & Teams` and the Splash team: @gpuenteallott, @daniellealexis, @MitulP91, @johnnybenson.
+3. *Notify.* Once you have finished, simply notify your hiring manager via email.
 
 ## Setup Instructions
 * We recommend using [yarn](https://yarnpkg.com/en/), an improved version of npm for front-end dependency management.
