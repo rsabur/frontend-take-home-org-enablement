@@ -20,7 +20,7 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 3. *Notify.* Once you have finished, simply notify your hiring manager via email.
 
 ## Setup Instructions
-* We recommend using [yarn](https://yarnpkg.com/en/), an improved version of npm for frontend dependency management.
+* We recommend using [yarn](https://yarnpkg.com/en/), since we already have a `yarn.lock` file in this repository.
 * Install dependencies executing `yarn install`
 * Kick off the local server executing `yarn run start`
 
