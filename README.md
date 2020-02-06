@@ -11,6 +11,7 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 * Implement a UI that renders the returned events inside the dashboard. Note that the endpoint returns paginated results.
 * Upon clicking on an event, a modal should open that shows more event details.
 * Bonus: add a [Mapbox.js](https://www.mapbox.com/) map inside the modal showing the event's location.
+* Bonus: add a cool animation, effect or design tweak of your own choice.
 
 ## Getting Started
 
@@ -44,7 +45,8 @@ The goal of this challenge is to discuss your implementation with you in your ne
 2. Code readability.
 3. Code that can be easily unit tested.
 4. Alignment with provided designs.
-5. Error handling.
-6. Mobile friendly UI.
+5. Well argumented choices of tools and libraries.
+6. Error handling.
+7. Mobile friendly UI.
 
 We're looking forward to your submission! 🚀
