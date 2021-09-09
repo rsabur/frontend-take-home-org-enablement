@@ -36,6 +36,7 @@ Thankfully B.A., the best back-end developer, has already set up some endpoints 
 - Use `#root-container` as the container for your JS app.
 - The files in `build/` are loaded automatically. You won't need to touch those.
 - We would like you to use React for this take home, but feel free to add any additional libraries or technologies that you like. Product manager Captain Murdock trusts you fully to make the right decisions!
+- The code you need to modify will be in `src/`
 - This project shouldn't take more than a few hours. Making sacrifices to stay within the time frame is okay as long as you can explain the decisions. The goal is for you to implement a beautiful solution that can be reviewed and discussed with the team. Gotta show all of them how amazing you are.
 - Use the [provided designs](designs) for guidance.
 
