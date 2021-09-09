@@ -2,7 +2,7 @@
 
 Hello developer,
 
-Great news! You're going to totally rebuild the Splash event dashboard. It's too old and outdate, like a dinosaur. Captain Murdock, the product manager for this project, has appointed you as the most excellent developer to start this endeavor from scratch. Congrats!
+Great news! You're going to totally rebuild the Splash event dashboard. It's too old and outdated, like a pre-historic dinosaur. Captain Murdock, the product manager for this project, has appointed you as the most excellent developer to start this endeavor from scratch. Congrats!
 
 Thankfully B.A., the best back-end developer, has already set up some endpoints for you.
 
