@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Events from './Events'
 
+
 function App() {
     const [events, setEvents] = useState([])
     const [isLoaded, setIsLoaded] = useState(false)
@@ -15,6 +16,7 @@ function App() {
     }, [])
 
     if (!isLoaded) return <h2>Loading...</h2>
+    console.log(events);
 
     const renderEvents = events.map(event => <Events key={event.id + event.title} {...event} />)
 
@@ -29,3 +31,4 @@ function App() {
 }
 
 export default App;
+

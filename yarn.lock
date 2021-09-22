@@ -966,6 +966,14 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.10.1.tgz#728ecd95ab207aab8a9a4e421f0422db329232be"
   integrity sha512-HnUhk1Sy9IuKrxEMdIRCxpIqPw6BFsbYSEUO9p/hNw5sMld/+3OLMWQP80F8/db9qsv3qUjs7ZR5bS/R+iinXw==
 
+"@react-css/grid@^1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@react-css/grid/-/grid-1.4.5.tgz#172d88dd1e3611d28a2abac9897938b2e66ffa9b"
+  integrity sha512-8h90EGE8WjAdPny2N0RGL4WmUXlxusTPtnKbho+8EiUt0EoJkQtsJhhjzq7pD4DAh3JAYQGzWqcf/5T0anyQpQ==
+  dependencies:
+    react "^17.0.2"
+    react-dom "^17.0.2"
+
 "@semantic-ui-react/event-stack@^3.1.2":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@semantic-ui-react/event-stack/-/event-stack-3.1.2.tgz#14fac9796695aa3967962d94ea9733a85325f9c4"

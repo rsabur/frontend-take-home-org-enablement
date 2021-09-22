@@ -1,1 +1,23 @@
 /* You can add CSS here! */
+.card{
+    list-style: none;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    margin: 0 4rem;
+    position: absolute;
+    background-color: white;
+    /* align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+/* 
+.card.image img {
+    width: 100px;
+    height: 100px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+
+  }
+   */
