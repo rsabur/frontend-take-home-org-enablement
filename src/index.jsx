@@ -10,19 +10,24 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:3000/events')
       .then(res => res.json())
-      .then(eventArr => {
-        setEvents(eventArr)
+      .then(eventsObj => {
+        setEvents(eventsObj.events)
         setIsLoaded(true)
       })
   }, [])
 
   if (!isLoaded) return <h2>Loading...</h2>
-  
-  console.log(events)
-  // const renderEvents = events.map(event => <Card keys={event.id + event.name} {...event} />)
+
+  const renderEvents = events.map(event => {
+    <div key={event.id + event.name}/>
+  })
+  // console.log(renderEvents)
+
   return (
-    <div>Working...</div>
-    // {renderEvents}
+    <>
+      <div>Working...</div>
+      {renderEvents}
+    </>
   )
 }
 
