@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 
 
-function Events({ id, title, event_start, event_end, image_url, venue }) {
+function Events({ id, title, event_start, event_end, image_url, venue, description }) {
 
     const [show, setShow] = useState(false);
 
@@ -35,7 +35,7 @@ function Events({ id, title, event_start, event_end, image_url, venue }) {
         if (venue === null) return 'TBD'
         else return venue.city
     }
-
+console.log(description);
     return (
         <>
             <Card style={{ width: '22rem', margin: '1rem' }} onClick={handleShow}>
@@ -53,13 +53,15 @@ function Events({ id, title, event_start, event_end, image_url, venue }) {
                 </Modal.Header>
                 <Modal.Body>
                     <h5><strong>Event Details</strong></h5><br />
-                    <p>
-                        <strong>Date & Time</strong><br />
-                        {eventStart.toDateString()} - {eventEnd.toDateString()}<br />
-                        {eventStart.toLocaleTimeString('en-US')} - {eventEnd.toLocaleTimeString('en-US')}<br />
-                        <br /><strong>Location</strong><br />
-                        {handleShowDetails()}
-                    </p>
+                    <strong>Date & Time</strong><br />
+                    {eventStart.toDateString()} - {eventEnd.toDateString()}<br />
+                    {eventStart.toLocaleTimeString('en-US')} - {eventEnd.toLocaleTimeString('en-US')}<br />
+                    <br /><strong>Location</strong><br />
+                    {handleShowDetails()}<br />
+                    <hr />
+                    <strong>Description</strong>
+                    {description}
+
                 </Modal.Body>
             </Modal>
         </>
