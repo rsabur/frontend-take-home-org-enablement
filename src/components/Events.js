@@ -14,8 +14,27 @@ function Events({ id, title, event_start, event_end, image_url, venue }) {
     var eventStart = new Date(event_start)
     var eventEnd = new Date(event_end)
 
-    const eventDate = 
+    const handleShowDetails = () => {
+        if (venue === null) return 'TBD'
+        else {
+            for (var propName in venue) {
+                if (venue[propName] === null) {
+                    delete venue[propName]
+                }
+                return Object.values(venue).slice(0, 6).join(" ")
+            }
+        }
+    }
 
+    // const handleShowDate = () => {
+    //     if(eventStart.toDateString() === eventEnd.toDateString()) return eventStart.toDateString()
+    //     else return eventStart.toDateString() - eventEnd.toDateString()
+    // }
+
+    const handleShowEventLocation = () => {
+        if (venue === null) return 'TBD'
+        else return venue.city
+    }
 
     return (
         <>
@@ -24,7 +43,7 @@ function Events({ id, title, event_start, event_end, image_url, venue }) {
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>
-                        {eventStart.toDateString()},
+                        {eventStart.toDateString()}, {handleShowEventLocation()}
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -39,7 +58,7 @@ function Events({ id, title, event_start, event_end, image_url, venue }) {
                         {eventStart.toDateString()} - {eventEnd.toDateString()}<br />
                         {eventStart.toLocaleTimeString('en-US')} - {eventEnd.toLocaleTimeString('en-US')}<br />
                         <br /><strong>Location</strong><br />
-
+                        {handleShowDetails()}
                     </p>
                 </Modal.Body>
             </Modal>
