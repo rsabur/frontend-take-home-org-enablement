@@ -1,29 +1,42 @@
 import React, { useState, useEffect } from 'react'
 import Button from 'react-bootstrap/Button'
-import Events from './Events'
+import Events from './components/Events'
 
 
 function App() {
     const [events, setEvents] = useState([])
     const [isLoaded, setIsLoaded] = useState(false)
-    const [pageNum, setPageNum] = useState(1) 
+    const [currentPage, setCurrentPage] = useState(1)
 
     useEffect(() => {
-        fetch(`http://localhost:3000/events?page=${pageNum}`)
+        fetch(`http://localhost:3000/events?page=${currentPage}`)
             .then(res => res.json())
             .then(eventsObj => {
                 setEvents(eventsObj.events)
                 setIsLoaded(true)
             })
-    }, [])
+    }, [currentPage])
 
     if (!isLoaded) return <h2>Loading...</h2>
 
     const renderEvents = events.map(event => <Events key={event.id + event.title} {...event} />)
 
-    const loadMoreEvents = () => {
-        
-        console.log('loading...')
+    const handleChangePage = () => {
+        if (currentPage <= 1) {
+            return <Button
+                style={{ margin: '5px' }}
+                variant='outline-primary'
+                onClick={() => setCurrentPage(currentPage + 1)}>
+                Next
+            </Button>
+        } else if (currentPage === 2) {
+            return <Button
+                style={{ margin: '5px' }}
+                variant='outline-primary'
+                onClick={() => setCurrentPage(currentPage - 1)}>
+                Back
+            </Button>
+        }
     }
 
     return (
@@ -32,11 +45,7 @@ function App() {
                 {renderEvents}
             </div>
             <div className='button'>
-                <Button
-                    variant='secondary'
-                    onClick={() => loadMoreEvents()}>
-                        Load More
-                </Button>
+                {handleChangePage()}
             </div>
         </div>
     )
